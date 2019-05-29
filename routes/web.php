@@ -25,7 +25,7 @@ $css = array(
     array('href' => 'menu.css'), 
     array('href' => 'slicknav.css'), 
     array('href' => 'component.css'), 
-    array('href' => 'colors/color1.css', 'id' => 'color')
+    array('href' => 'colors/color17.css', 'id' => 'color')
 );
 
 $headJs = array(
@@ -55,14 +55,13 @@ $bodyJs = array(
     array('src' => 'custom_general.js')
 );
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::redirect('/', '/Inicio', 301);
 
 Route::view('/Inicio', 'inicio', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => true, 'idMenuBar' => 'mainheader']);
 
 Route::view('/Nosotros', 'nosotros', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => false, 'idMenuBar' => 'header']);
+Route::view('/NosotrosMas', 'nosotros_mas', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => false, 'idMenuBar' => 'header']);
 
-Route::get('blade', function () {
-    return view('child');
-});
+Route::view('/Menu', 'menu', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => true, 'idMenuBar' => 'header']);
+
+Route::view('/Contacto', 'contacto', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => false, 'idMenuBar' => 'header']);

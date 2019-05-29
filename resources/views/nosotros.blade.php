@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Inicio')
+@section('title', 'Nosotros')
 
 @section('contenido')
 <div id="about" class="item">
@@ -22,32 +22,52 @@
                                     <br /><br />
                                     Contamos con 3 centros de esparcimiento que se ubican en Casuarinas, Santa María y Chosica.
                                 </p>
+                                <br /><br />
+                                <div class="left_content ">
+                                    <div class="sub_title">
+                                        <h4>¿Quieres saber más?</h4>
+                                    </div>
+                                    <p>La asociación se creó en el año 1972... ¿te cuento más?<br/><br/><a class="button nav-link" href="/NosotrosMas">Sí, cuéntame más</a></p>
+                                </div>
                             </div>
                             <div class="col-md-6">
                                 <div class="right_content ">
                                     <div class="sub_title">
-                                        <h4>Opening hours:</h4>
+                                        <h4>Horarios de atención:</h4>
+                                    </div>
+                                    <div class="sub_title">
+                                        <h5>Casuarinas</h5>
                                     </div>
                                     <div class="hour_table">
                                         <table>
                                             <tr>
-                                            <td class="days">mon - Fri</td>
-                                            <td>9:00am - 4:00pm</td>
-                                            </tr>
-                                            <tr>
-                                            <td class="days">Sat</td>	
-                                            <td>9:00am - 2:00pm</td>		
-                                            </tr>
-                                            <tr>
-                                            <td class="days">Sun</td>	
-                                            <td>8:30am - 1:00pm</td>		
+                                            <td class="days">LUN - DOM</td>
+                                            <td>9:00am - 5:00pm</td>
                                             </tr>
                                         </table>
                                     </div>
                                     <div class="sub_title">
-                                        <h4>book your table:</h4>
+                                        <h5>Santa María</h5>
                                     </div>
-                                    <p>We welcome walk-in guests,online at<br/><br><a class="button nav-link" href="contactform.htm">Book table</a></p>
+                                    <div class="hour_table">
+                                        <table>
+                                            <tr>
+                                            <td class="days">MAR - DOM</td>
+                                            <td>9:00am - 5:00pm</td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="sub_title">
+                                        <h5>Chosica</h5>
+                                    </div>
+                                    <div class="hour_table">
+                                        <table>
+                                            <tr>
+                                            <td class="days">MAR - DOM</td>
+                                            <td>9:00am - 5:00pm</td>
+                                            </tr>
+                                        </table>
+                                    </div>
                                 </div>
                             </div>
                         </div>

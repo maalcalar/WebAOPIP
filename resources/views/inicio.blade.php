@@ -102,162 +102,18 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Monday</div>
+												<div class="toggle-link toggle-open">Evento</div>
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-round"><h4>$&nbsp;18</h4></div>
 													<div class="specials-content" >
-														<h4>POT STICKERS (6)</h4>
-														<p>(fried dumplings filled with ground pork and vegetables)</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;20</h4></div>
-													<div class="specials-content" >
-														<h4>SATAY</h4>
-														<p>Choice of chicken or beef marinated in thai herbs served with peanut sauce and cucumber salad.</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;35</h4></div>
-													<div class="specials-content" >
-														<h4>CURRY PUFF</h4>
-														<p>Puff pastry stuffed with ground chicken, onion, potatoes and curry powder with cucumber salad.</p>
+														<h4>La final de la UEFA Champions League</h4>
+														<div class="text-center"><img src="img/volante_20190601.png" width="560" alt="La final de la UEFA Champions League"/></div>
 													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
 									</div><!-- div one created ends here -->
-									<div class="clearfix">
-										<div class="toggle-container">
-											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Tuesday</div>
-											</div>
-											<div class="toggle-content">
-												<div class="pad_top20 clearfix">
-													<div class="specials-round"><h4>$&nbsp;22</h4></div>
-													<div class="specials-content" >
-														<h4>Spring Roll</h4>
-														<p>Crispy fried rolls stuffed with shrimp and glass noodles.</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;18</h4></div>
-													<div class="specials-content" >
-														<h4>Pork Loin</h4>
-														<p>Roasted Pork, Swiss Chard, Ramps and Wheat Spaetzle.</p>
-													</div>
-												</div>
-											</div>
-										</div><!--// .toggle-container end-->
-									</div>
-									<div class="clearfix">
-										<div class="toggle-container">
-											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Wednesday</div>
-											</div>
-											<div class="toggle-content">
-												<div class="pad_top20 clearfix">
-													<div class="specials-round"><h4>$&nbsp;14</h4></div>
-													<div class="specials-content" >
-														<h4>Devil's Food Cake</h4>
-														<p>Chocolate, Black Cardamom, Banana Ice Cream.</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;20</h4></div>
-													<div class="specials-content" >
-														<h4>SATAY</h4>
-														<p>Choice of chicken or beef marinated in thai herbs served with peanut sauce and cucumber salad.</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;25</h4></div>
-													<div class="specials-content" >
-														<h4>Vegetable Frittata</h4>
-														<p>Asparagus, fresh thyme, baked in a cast iron skillet.</p>
-													</div>
-												</div>
-											</div>
-										</div><!--// .toggle-container end-->
-									</div>
-									<div class="clearfix">
-										<div class="toggle-container">
-											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Thursday</div>
-											</div>
-											<div class="toggle-content">
-												<div class="pad_top20 clearfix">
-													<div class="specials-round"><h4>$&nbsp;12</h4></div>
-													<div class="specials-content" >
-														<h4>Almond Cake</h4>
-														<p>Rhubarb, Mascarpone Cream and Brown Sugar Ice Cream.</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;16</h4></div>
-													<div class="specials-content" >
-														<h4>Potato Salad</h4>
-														<p>Black Bass, Fennel, Olives and Fingerling Potatoes.</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="clearfix">
-										<div class="toggle-container">
-											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Friday</div>
-											</div>
-											<div class="toggle-content">
-												<div class="pad_top20 clearfix">
-													<div class="specials-round"><h4>$&nbsp;30</h4></div>
-													<div class="specials-content" >
-														<h4>Egg Sandwich</h4>
-														<p>Scrambled eggs, on our whole wheat, with carrot hash browns.</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;26</h4></div>
-													<div class="specials-content" >
-														<h4>Mushroom Broth</h4>
-														<p>Spring Onion & Smoked Egg, Kohlrabi and Emmer Noodles.</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="clearfix">
-										<div class="toggle-container">
-											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Saturday &amp; Sunday</div>
-											</div>
-											<div class="toggle-content">
-												<div class="pad_top20 clearfix">
-													<div class="specials-round"><h4>$&nbsp;35</h4></div>
-													<div class="specials-content" >
-														<h4>Egg with Chees</h4>
-														<p>Kale & Ancient Grains Salad, Dates, Sbrinz Cheese. </p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;18</h4></div>
-													<div class="specials-content" >
-														<h4>Pork Loin</h4>
-														<p>Roasted Pork, Swiss Chard, Ramps and Wheat Spaetzle.</p>
-													</div>
-												</div>
-												<div class="clearfix">
-													<div class="specials-round"><h4>$&nbsp;25</h4></div>
-													<div class="specials-content" >
-														<h4>Vegetable Frittata</h4>
-														<p>Puff pastry stuffed with ground chicken, onion, potatoes and curry powder with cucumber salad.</p>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div><!-- last div ends here -->
 								</div>
 							</div>
 						</div>

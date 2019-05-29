@@ -59,9 +59,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::view('/Inicio', 'inicio', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs]);
+Route::view('/Inicio', 'inicio', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => true, 'idMenuBar' => 'mainheader']);
 
-Route::view('/Nosotros', 'nosotros');
+Route::view('/Nosotros', 'nosotros', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => false, 'idMenuBar' => 'header']);
 
 Route::get('blade', function () {
     return view('child');

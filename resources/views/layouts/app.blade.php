@@ -1,3 +1,4 @@
+@extends('layouts.menuBar')
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -18,7 +19,16 @@
         @if (isset($style['id']))
         <link rel="stylesheet" href="css/{{ $style['href'] }}" id="{{ $style['id'] }}" type="text/css"/>
         @else
+
+        @if (isset($esInicio))
         <link rel="stylesheet" href="css/{{ $style['href'] }}" type="text/css"/>
+        @else
+        @if (!isset($style['esInicio']))
+        <link rel="stylesheet" href="css/{{ $style['href'] }}" type="text/css"/>
+        @endif
+        @endif
+        
+        
         @endif
         @endforeach
 
@@ -36,9 +46,22 @@
         @endforeach
     </head>
     <body>
+        <div id="wrapper">
+            <div id="mask">
+                @if ($esInicio)
+                <div class="mainheaderslide" id="slide">
+                    @section('menuBar')
+                    @show
+                </div>
+                @else
+                    @section('menuBar')
+                    @show
+                @endif
 
-        @section('contenido')
-        @show
+                @section('contenido')
+                @show
+            </div>
+        </div>
 
         @foreach ($bodyJs as $bjs)
         @if (isset($bjs['nopre']))

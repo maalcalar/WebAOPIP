@@ -14,36 +14,10 @@
 
 <!--Wrapper 
 =============================-->
-<div id="wrapper">
-	<div id="mask">
+<!--<div id="wrapper">-->
+	<!--<div id="mask">-->
 		<!-- Mainheader Menu Section -->	
-		<div class="mainheaderslide" id="slide">
-			<div id="mainheader" class="header">
-				<div class="menu-inner">
-					<div class="container">
-						<div class="row">
-							<div class="header-table col-md-12 header-menu">
-								<!--  Logo section -->
-								<div class="brand"><a href="/Inicio" class="nav-link"><span> AOPIP </span></a></div>
-								<!--  // Logo section -->
-				
-								<!-- Home Page Menu section -->
-								<nav class="main-nav">
-									<a href="#" class="nav-toggle"></a>
-									<ul  id="home_nav" class="nav">
-										<li><a href="/Inicio" class="nav-link selected">Inicio</a></li>
-										<li><a href="/Nosotros" class="nav-link">Nosotros</a></li>
-										<li><a href="/Menu" class="nav-link">Menú</a></li>
-										<li><a href="/Contacto" class="nav-link">Contáctanos</span></a></li>	
-									</ul>
-								</nav>
-								<!--  // Home Page Menu section -->
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		<!-- // Mainheader Menu Section -->
 				
 					
@@ -292,7 +266,7 @@
 			</div>
 		</div>
 		<!-- // Lightbox  for home page special promo pack-->
-	</div>
-</div>
+	<!--</div>-->
+<!--</div>-->
 <!-- // Wrapper =============================-->
 @endsection

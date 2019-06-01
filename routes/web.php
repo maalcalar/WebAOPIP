@@ -24,7 +24,8 @@ $css = array(
     array('href' => 'style.css'), 
     array('href' => 'menu.css'), 
     array('href' => 'slicknav.css'), 
-    array('href' => 'component.css'), 
+    //array('href' => 'component.css'), 
+    array('href' => 'cycleslider.css'), 
     array('href' => 'colors/color17.css', 'id' => 'color')
 );
 
@@ -48,10 +49,13 @@ $bodyJs = array(
     array('src' => 'jquery.easing.1.3.js'), 
     array('src' => 'retina-1.1.0.min.js'), 
     array('src' => 'jpreloader.min.js'), 
-    array('src' => 'classie.js'), 
-    array('src' => 'boxesFx.js'), 
-    array('src' => 'wait.js'), 
-    array('src' => 'custom_general_box.js'), 
+    //array('src' => 'classie.js'), 
+    //array('src' => 'boxesFx.js'), 
+    //array('src' => 'wait.js'), 
+    //array('src' => 'custom_general_box.js'), 
+    array('src' => 'jquery.cycle.all.js'), 
+    array('src' => 'jquery.cycle2.caption2.js'), 
+    array('src' => 'jquery_cycle_custom.js'), 
     array('src' => 'custom_general.js')
 );
 
@@ -60,7 +64,7 @@ Route::redirect('/', '/Inicio', 301);
 Route::view('/Inicio', 'inicio', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => true, 'idMenuBar' => 'mainheader']);
 
 Route::view('/Nosotros', 'nosotros', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => false, 'idMenuBar' => 'header']);
-Route::view('/NosotrosMas', 'nosotros_mas', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => false, 'idMenuBar' => 'header']);
+Route::view('/Nosotros/Mas', 'nosotros_mas', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => false, 'idMenuBar' => 'header']);
 
 Route::view('/Menu', 'menu', ['fonts' => $fonts, 'styles' => $css, 'headJs' => $headJs, 'bodyJs' => $bodyJs, 'esInicio' => true, 'idMenuBar' => 'header']);
 

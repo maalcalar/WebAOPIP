@@ -27,7 +27,7 @@
                                     <div class="sub_title">
                                         <h4>¿Quieres saber más?</h4>
                                     </div>
-                                    <p>La asociación se creó en el año 1972... ¿te cuento más?<br/><br/><a class="button nav-link" href="/NosotrosMas">Sí, cuéntame más</a></p>
+                                    <p>La asociación se creó en el año 1972... ¿te cuento más?<br/><br/><a class="button nav-link" href="/Nosotros/Mas">Sí, cuéntame más</a></p>
                                 </div>
                             </div>
                             <div class="col-md-6">

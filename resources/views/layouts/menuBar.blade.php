@@ -8,7 +8,7 @@
                         <!--  Logo section -->
                         <!--<div class="brand"><a href="{{ (url()->current() == url('Inicio'))? '#': '/Inicio' }}" class="nav-link"><span> AOPIP </span></a></div>-->
                         <div class="brand">
-                            <a href="{{ (url()->current() == url('Inicio'))? '#': '/Inicio' }}" class="nav-link"><img src="img/logo_001.png" alt="Logo AOPIP"/></a>
+                            <a href="{{ (url()->current() == url('Inicio'))? '#': '/Inicio' }}" class="nav-link"><img src="{{ url('img/logo_001.png') }}" alt="Logo AOPIP" height="65"/></a>
                         </div>
                         <!--  // Logo section -->
         

@@ -31,8 +31,8 @@
 					<div class="container">
 						<div class="header_icons accura-header-block accura-hidden-2xs">
 							<ul class="accura-social-icons accura-stacked accura-jump accura-full-height accura-bordered accura-small accura-colored-bg clearFix">
-								<li id="1"><a href="http://www.facebook.com" target="_blank" class="accura-social-icon-facebook circle"><i class="fa fa-facebook"></i></a></li>
-								<li id="2"><a href="https://www.youtube.com" target="_blank" class="accura-social-icon-gplus circle"><i class="fa fa-youtube"></i></a></li>
+								<li id="1"><a href="https://www.facebook.com/asociacion.deoficialespip/" target="_blank" class="accura-social-icon-facebook circle"><i class="fa fa-facebook"></i></a></li>
+								<li id="2"><a href="https://www.youtube.com/channel/UCXwR5SuQGr0yOUsyMPIow8Q" target="_blank" class="accura-social-icon-gplus circle"><i class="fa fa-youtube"></i></a></li>
 							</ul>
 						</div>
 						<div class="call">
@@ -43,12 +43,39 @@
 						</div>
 					</div>
 				</div>
-				<div id="boxgallery" class="boxgallery" data-effect="effect-2">
-					<div class="panel"><img src="img/7.jpg" alt="image 7"/></div>
-					<div class="panel"><img src="img/10.jpg" alt="image 10"/></div>
-					<div class="panel"><img src="img/8.jpg" alt="image 8"/></div>
-					<div class="panel"><img src="img/4.jpg" alt="image 4"/></div>
+				<div class="clearfix">
+					<div class="cycle-slideshow" 
+					data-cycle-caption-plugin="caption2" 
+					data-cycle-slides="li" 
+					data-cycle-fx='scrollHorz' 
+					data-cycle-speed='700' 
+					data-cycle-timeout='7000' 
+					data-cycle-pause-on-hover="true" 
+					data-cycle-prev=".hprev" 
+					data-cycle-next=".hnext"     
+					data-cycle-overlay-template="<div class=banner-background style=background-image:url(img/{ {background} })></div>" 
+				  	data-cycle-caption-template="<span class=caption1>{ {caption1} }</span> <span class=caption2>{ {caption2} }</span>" 
+					data-cycle-easing="easeOutBack">
+						<ul>
+							<li data-cycle-background="banner_005.jpeg" data-cycle-caption1="¿Qué deseas hacer con tu tiempo libre?"  data-cycle-caption2=""></li>
+							<li data-cycle-background="banner_006.jpeg" data-cycle-caption1="Ven a pasar un fin de semana en Casuarinas AOPIP" data-cycle-caption2=""></li>
+							<li data-cycle-background="banner_007.jpeg" data-cycle-caption1="Disfruta del sol y la brisa del mar en Santa María AOPIP" data-cycle-caption2=""></li> 
+							<li data-cycle-background="banner_008.jpeg" data-cycle-caption1="Tómate unas vaciones en Chosica AOPIP" data-cycle-caption2=""></li>
+						</ul>
+						<div class="hprev"><i class="fa fa-angle-left"></i></div>
+						<div class="hnext"><i class="fa fa-angle-right"></i></div>
+						<div class="cycle-overlay"></div>
+						<div class="cycle-caption"></div>
+						<div class="cycle-pager"></div>
+						<div class="pattern_bg"></div>
+					</div>
 				</div>
+				<!--<div id="boxgallery" class="boxgallery" data-effect="effect-2">
+					<div class="panel"><img src="img/banner_005.jpg" alt="¿Qué deseas hacer con tu tiempo libre?"/></div>
+					<div class="panel"><img src="img/banner_002.jpeg" alt="Ven a pasar un fin de semana en Casuarinas AOPIP"/></div>
+					<div class="panel"><img src="img/banner_003.jpeg" alt="Disfruta del sol y la brisa del mar en Santa María AOPIP"/></div>
+					<div class="panel"><img src="img/banner_004.jpeg" alt="Tómate unas vaciones en Chosica AOPIP"/></div>
+				</div>-->
 			</div>
 		</div>
 				

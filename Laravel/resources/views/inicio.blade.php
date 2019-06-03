@@ -129,6 +129,23 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Comunicado: Denuncia por delito en contra de los datos</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<!--<h4>La final de la UEFA Champions League</h4>-->
+														<div class="text-center"><img src="img/comunicado_001.jpeg" width="560" alt="comunicado_001"/></div>
+														<div class="text-center"><img src="img/comunicado_002.jpeg" width="560" alt="comunicado_001"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Evento</div>
 											</div>
 											<div class="toggle-content">

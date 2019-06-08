@@ -129,14 +129,16 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Comunicado: Denuncia por delito en contra de los datos</div>
+												<div class="toggle-link toggle-open">Amazonas - Cross Training</div>
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
 													<div class="specials-content" >
 														<!--<h4>La final de la UEFA Champions League</h4>-->
-														<div class="text-center"><img src="img/comunicado_001.jpeg" width="560" alt="comunicado_001"/></div>
-														<div class="text-center"><img src="img/comunicado_002.jpeg" width="560" alt="comunicado_001"/></div>
+														<div class="text-center"><img src="img/amazonas_001.jpeg" width="560" alt="amazonas_001"/></div>
+														<div class="text-center"><img src="img/amazonas_002.jpeg" width="560" alt="amazonas_002"/></div>
+														<div class="text-center"><img src="img/amazonas_003.jpeg" width="560" alt="amazonas_003"/></div>
+														<div class="text-center"><img src="img/amazonas_004.jpeg" width="560" alt="amazonas_004"/></div>
 													</div>
 												</div>
 											</div>
@@ -146,12 +148,40 @@
 									<div class="clearfix">
 										<div class="toggle-container">
 											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Evento</div>
+												<div class="toggle-link toggle-open">Amistoso: Perú - Colombia</div>
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
 													<div class="specials-content" >
-														<h4>La final de la UEFA Champions League</h4>
+														<div class="text-center"><img src="img/partidoPeruColombia.jpeg" width="560" alt="comunicado_001"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Comunicado: Denuncia por delito en contra de los datos</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<div class="text-center"><img src="img/comunicado_001.jpeg" width="560" alt="comunicado_001"/></div>
+														<div class="text-center"><img src="img/comunicado_002.jpeg" width="560" alt="comunicado_001"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">La final de la UEFA Champions League</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content">
 														<div class="text-center"><img src="img/volante_20190601.png" width="560" alt="La final de la UEFA Champions League"/></div>
 													</div>
 												</div>

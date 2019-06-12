@@ -60,7 +60,7 @@
 							<li data-cycle-background="banner_005.jpeg" data-cycle-caption1="¿Qué deseas hacer con tu tiempo libre?"  data-cycle-caption2=""></li>
 							<li data-cycle-background="banner_006.jpeg" data-cycle-caption1="Ven a pasar un fin de semana en Casuarinas AOPIP" data-cycle-caption2=""></li>
 							<li data-cycle-background="banner_007.jpeg" data-cycle-caption1="Disfruta del sol y la brisa del mar en Santa María AOPIP" data-cycle-caption2=""></li> 
-							<li data-cycle-background="banner_008.jpeg" data-cycle-caption1="Tómate unas vaciones en Chosica AOPIP" data-cycle-caption2=""></li>
+							<li data-cycle-background="banner_008.jpeg" data-cycle-caption1="Tómate unas vacaciones en Chosica AOPIP" data-cycle-caption2=""></li>
 						</ul>
 						<div class="hprev"><i class="fa fa-angle-left"></i></div>
 						<div class="hnext"><i class="fa fa-angle-right"></i></div>

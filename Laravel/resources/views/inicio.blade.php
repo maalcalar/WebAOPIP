@@ -129,6 +129,39 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Día del Padre</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<!--<h4>La final de la UEFA Champions League</h4>-->
+														<div class="text-center"><img src="img/diaDelPadre.jpeg" width="560" alt="diaDelPadre"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Balance trimestral - primer periodo</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<!--<h4>La final de la UEFA Champions League</h4>-->
+														<p>Presentamos el balance trimestral con respecto al primer periodo.</p>
+														<div class="text-center"><img src="img/balanceTrimestral1_01.jpeg" width="560" alt="balanceTrimestral1_01" class="fa-rotate-90"/></div>
+														<div class="text-center"><img src="img/balanceTrimestral1_02.jpeg" width="560" alt="balanceTrimestral1_02"/></div>
+														<p><small>*Por problemas técnicos de nuestra página web se demoró la publicación.</small></p>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Amazonas - Cross Training</div>
 											</div>
 											<div class="toggle-content">

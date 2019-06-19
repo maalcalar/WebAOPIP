@@ -129,6 +129,21 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Plana administrativa</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<!--<h4>La final de la UEFA Champions League</h4>-->
+														<div class="text-center"><img src="img/planaAdministrativa.png" width="560" alt="diaDelPadre"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Día del Padre</div>
 											</div>
 											<div class="toggle-content">

@@ -129,6 +129,38 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">BALANCE HASTA EL 30 DE JUNIO</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<!--<h4>La final de la UEFA Champions League</h4>-->
+														<div class="text-center"><img src="img/balance_01.jpeg" width="560" alt="balance_01"/></div>
+														<div class="text-center"><img src="img/balance_02.jpeg" width="560" alt="balance_02"/></div>
+														<div class="text-center"><img src="img/balance_03.jpeg" width="560" alt="balance_03"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">ASAMBLE GENERAL</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<!--<h4>La final de la UEFA Champions League</h4>-->
+														<div class="text-center"><img src="img/asamblea.jpeg" width="560" alt="asamblea"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">COMUNICADO</div>
 											</div>
 											<div class="toggle-content">

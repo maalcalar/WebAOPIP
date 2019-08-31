@@ -36,10 +36,10 @@
         <!--<link rel="stylesheet" href="css/colors/color1.css" id="color" type="text/css" />-->
         <!--Color Change End-->
 
-        <link rel="shortcut icon" href="images/favicon.ico.png" /> 
-        <link rel="apple-touch-icon" href="images/apple_touch_icon.png" />
-        <link rel="apple-touch-icon" sizes="72x72" href="images/apple_touch_icon_72x72.png" />
-        <link rel="apple-touch-icon" sizes="114x114" href="images/apple_touch_icon_114x114.png" />
+        <link rel="shortcut icon" href="images/favicon_aopip.ico" /> 
+        <link rel="apple-touch-icon" href="images/apple_touch_icon_aopip.ico" />
+        <link rel="apple-touch-icon" sizes="96x96" href="images/apple_touch_icon_aopip_96x96.ico" />
+        <link rel="apple-touch-icon" sizes="128x128" href="images/apple_touch_icon_aopip_128x128.ico" />
 
         @foreach ($headJs as $hjs)
         <script type="text/javascript" src="{{ url('js/' . $hjs['src']) }}"></script>

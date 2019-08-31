@@ -31,8 +31,9 @@
 					<div class="container">
 						<div class="header_icons accura-header-block accura-hidden-2xs">
 							<ul class="accura-social-icons accura-stacked accura-jump accura-full-height accura-bordered accura-small accura-colored-bg clearFix">
-								<li id="1"><a href="https://www.facebook.com/asociacion.deoficialespip/" target="_blank" class="accura-social-icon-facebook circle"><i class="fa fa-facebook"></i></a></li>
+								<li id="1"><a href="https://www.facebook.com/ClubAopip/" target="_blank" class="accura-social-icon-facebook circle"><i class="fa fa-facebook"></i></a></li>
 								<li id="2"><a href="https://www.youtube.com/channel/UCXwR5SuQGr0yOUsyMPIow8Q" target="_blank" class="accura-social-icon-gplus circle"><i class="fa fa-youtube"></i></a></li>
+								<li id="3"><a href="https://instagram.com/clubaopip?igshid=1fz8ha1sn8rt0" target="_blank" class="accura-social-icon-pinterest circle"><i class="fa fa-instagram"></i></a></li>
 							</ul>
 						</div>
 						<div class="call">

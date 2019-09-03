@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <title>AOPIP - @yield('title')</title>
-        <meta name="description" content="Página Web de AOPIP" />
-        <meta name="keywords" content="AOPIP" />
+        <meta name="description" content="Eventos, bungalows, gimnasio, sauna, masajes, desayunos, almuerzos y más" />
+        <meta name="keywords" content="AOPIP, Club AOPIP, clubaopip, clubaopip.com, aopip casuarinas, bungalows Chosica, alquiler de bungalows Chosica, eventos, eventos casuarinas, eventos chosica, eventos santa maria, aopip eventos, sauna casuarinas, cancha de futbol, cancha de futbol casuarinas aopip, piscina, piscina casuarinas aopip, aopip club" />
         <meta name="author" content="Miguel Alcalá" />
 
         <!-- Loading Google Web fonts-->

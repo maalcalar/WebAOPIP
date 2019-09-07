@@ -130,6 +130,21 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">CONVOCATORIA DE AUDITORÍA FACEBOOK</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<div class="specials-content" >
+														<!--<h4>La final de la UEFA Champions League</h4>-->
+														<div class="text-center"><img src="img/convocatoriaDeAuditoriaFB.PNG" width="560" alt="convocatoriaDeAuditoriaFB"/></div>
+													</div>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">FIESTA POR NUESTRO 71º ANIVERSARIO PIP</div>
 											</div>
 											<div class="toggle-content">

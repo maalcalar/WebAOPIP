@@ -281,6 +281,30 @@
                                 </table>
                             </div>
                         </div>
+                        <br/>
+                        <h3>Organigrama</h3>
+                        <a href="">
+                            <div onClick="modalshow('#organigrama')"  data-toggle="modal" data-target="#lightbox">
+                                <div class="spimg">
+                                    <img src="{{ url('img/Organigrama AOPIP.png') }}" class="img-responsive" alt="">
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="organigrama">
+    <div id="lightbox" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="organigrama" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/Organigrama AOPIP.png') }}" alt="...">
                     </div>
                 </div>
             </div>

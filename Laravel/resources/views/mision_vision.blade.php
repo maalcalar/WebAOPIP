@@ -18,6 +18,8 @@
                                 <p class="row">Incrementar el prestigio de los CEOs PIP brindando un servicio de calidad y sano esparcimiento con sólidos valores de moral y ética; que nos permita satisfacer al asociado.</p>
                             </div>
                         </div>
+                        <br/>
+                        <br/>
                         <h1>Visión</h1>
                         <div class="clearfix pad_top13">
                             <div class="col-md-12">

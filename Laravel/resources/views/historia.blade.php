@@ -4,7 +4,7 @@
 
 @section('contenido')
 <div id="about" class="item">
-	<div class="aboutbg img-overlay"></div>
+	<div class="historiabg img-overlay"></div>
     <div class="content">
         <div class="content_overlay"></div>
         <div class="content_inner">

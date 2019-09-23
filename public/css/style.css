@@ -2035,6 +2035,14 @@ background-size: cover;
    background-size: cover;
    }
 
+   .mision_visionbg{
+	background:url(../img/mision_historiaBg.png) left center;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
 .menu-img-small{
  background:url(../img/10.jpg) left center;
  -webkit-background-size: cover;

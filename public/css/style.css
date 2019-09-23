@@ -2027,6 +2027,14 @@ background-size: cover;
 background-size: cover;
 }
 
+.historiabg{
+	background:url(../img/historiaBg.png) left center;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
 .menu-img-small{
  background:url(../img/10.jpg) left center;
  -webkit-background-size: cover;

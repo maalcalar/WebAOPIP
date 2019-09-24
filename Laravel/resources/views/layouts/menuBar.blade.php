@@ -22,7 +22,7 @@
                                         <li><a href="{{ (url()->current() == url('Nosotros/Historia'))? '#': '/Nosotros/Historia' }}" class="nav-link {{ (url()->current() == url('Nosotros/Historia'))? 'selected': '' }}" style="font-size: 17px;">Historia de la AOPIP</a></li>
                                         <li><a href="{{ (url()->current() == url('Nosotros/Mision_Vision'))? '#': '/Nosotros/Mision_Vision' }}" class="nav-link {{ (url()->current() == url('Nosotros/Mision_Vision'))? 'selected': '' }}" style="font-size: 17px;">Misión y Visión</a></li>
                                         <li><a href="{{ (url()->current() == url('Nosotros/Himno'))? '#': '/Nosotros/Himno' }}" class="nav-link {{ (url()->current() == url('Nosotros/Himno'))? 'selected': '' }}" style="font-size: 17px;">Himno de la PIP</a></li>
-                                        <li><a href="{{ (url()->current() == url('Nosotros/CD'))? '#': '/Nosotros/CD' }}" class="nav-link {{ (url()->current() == url('Nosotros/CD'))? 'selected': '' }}" style="font-size: 17px;">Consejo Directivo</a></li>
+                                        <li><a href="{{ (url()->current() == url('Nosotros/Junta_Administracion'))? '#': '/Nosotros/Junta_Administracion' }}" class="nav-link {{ (url()->current() == url('Nosotros/Junta_Administracion'))? 'selected': '' }}" style="font-size: 17px;">Junta de Administración</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="#" class="nav-link {{ (url()->current() == url('Asociados'))? 'selected': '' }}" style="font-size: 17px;">Asociados</a>

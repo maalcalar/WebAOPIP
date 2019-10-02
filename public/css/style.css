@@ -2027,6 +2027,15 @@ background-size: cover;
 background-size: cover;
 }
 
+
+.himnobg{
+	background:url(../img/himno_detective.Bg.png) left center;
+	-webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+   background-size: cover;
+   }
+
 .menu-img-small{
  background:url(../img/10.jpg) left center;
  -webkit-background-size: cover;

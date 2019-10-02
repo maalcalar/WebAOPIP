@@ -13,8 +13,10 @@
                     <div class="col-md-12 content_text">
                         <h1>Contáctanos</h1>
                         <div class="clearfix pad_top13">
-                            <p class="row">Si deseas obtener más información puedes llamarnos a los teléfonos de abajo o escribirnos a nuestro correo.<br/><br/></p>
-                            <div class="col-md-8">
+                            <div class="col-md-12">
+                                <p>Si deseas obtener más información puedes llamarnos a los teléfonos de abajo o escribirnos a nuestro correo.<br/><br/></p>
+                            </div>
+                            <div class="col-md-7">
                                 <div class="row ">
                                     <div class="col-md-4 col-sm-12">
                                         <div class="sub_title">
@@ -132,7 +134,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-5">
                                 <div class="contactform"></div>
                                     <div class="content">
                                         <div class="row contentscroll">
@@ -143,10 +145,10 @@
                                                         <form id="contact_form" class="cont_form pad_top13" action="mailto:informatica@clubaopip.com" method="post" enctype="text/plain">
                                                             <p>Si quieres saber sobre reservas, eventos y otras consultas puedes escribirnos y te responderemos.</p>
                                                             <div class="clearfix cont_form pad_top20"> 
-                                                                <input type="text" name="name" class="validate['required'] textbox1" placeholder="* Nombre : " onfocus="this.placeholder = ''" onBlur="this.placeholder = '* Name :'" />
-                                                                <input type="text" name="email" class="validate['required','email']  textbox1" placeholder="* Correo : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Email :'" />
-                                                                <input type="text" name="phone" class="validate['required','phone']  textbox1" placeholder="* Teléfono : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Phone :'" />
-                                                                <textarea name="message" class="validate['required'] messagebox1" placeholder="* Mensaje : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Message :'"></textarea>
+                                                                <input type="text" name="name" class="validate['required'] textbox1" placeholder="* Nombre : " onfocus="this.placeholder = ''" onBlur="this.placeholder = '* Nombre :'" />
+                                                                <input type="text" name="email" class="validate['required','email']  textbox1" placeholder="* Correo : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Correo :'" />
+                                                                <input type="text" name="phone" class="validate['required','phone']  textbox1" placeholder="* Teléfono : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Teléfono :'" />
+                                                                <textarea name="message" class="validate['required'] messagebox1" placeholder="* Mensaje : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Mensaje :'"></textarea>
                                                                 <input id="contactsubmitBtn1" value="enviar" name="Confirm" type="submit" class="submitBtn" />
                                                             </div>
                                                         </form>

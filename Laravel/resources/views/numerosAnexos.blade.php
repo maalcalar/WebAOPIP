@@ -34,14 +34,6 @@
                                             </thead>
                                             <tbody>
                                                 <tr>
-                                                    <td>101</td>
-                                                    <td>Recepción</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>102</td>
-                                                    <td>Seguridad</td>
-                                                </tr>
-                                                <tr>
                                                     <td>103</td>
                                                     <td>Asistente de Eventos 1</td>
                                                 </tr>
@@ -50,68 +42,8 @@
                                                     <td>Asistente de Eventos 2</td>
                                                 </tr>
                                                 <tr>
-                                                    <td>105</td>
-                                                    <td>Presidencia</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>107</td>
-                                                    <td>Caja Central</td>
-                                                </tr>
-                                                <tr>
                                                     <td>108</td>
-                                                    <td>Atención al asociado</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>109</td>
-                                                    <td>Secretaría de presidencia</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>110</td>
-                                                    <td>Contabilidad</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>112</td>
-                                                    <td>Gerencia</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>113</td>
-                                                    <td>Recursos Humanos</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>114</td>
-                                                    <td>Asistente de Logística</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>115</td>
-                                                    <td>Logística</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>116</td>
-                                                    <td>Asistente de Recursos Humanos 1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>117</td>
-                                                    <td>Informática</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>118</td>
-                                                    <td>Asistente de Recursos Humanos 1</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>119</td>
-                                                    <td>Almacén de cocina</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>120</td>
-                                                    <td>Almacén General</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>123</td>
-                                                    <td>Comedor</td>
-                                                </tr>
-                                                <tr>
-                                                    <td>126</td>
-                                                    <td>Consejo de Vigilancia</td>
+                                                    <td>Atención al Asociado.</td>
                                                 </tr>
                                             </tbody>
                                         </table>
@@ -145,11 +77,11 @@
                                                         <form id="contact_form" class="cont_form pad_top13" action="mailto:informatica@clubaopip.com" method="post" enctype="text/plain">
                                                             <p>Si quieres saber sobre reservas, eventos y otras consultas puedes escribirnos y te responderemos.</p>
                                                             <div class="clearfix cont_form pad_top20"> 
-                                                                <input type="text" name="name" class="validate['required'] textbox1" placeholder="* Nombre : " onfocus="this.placeholder = ''" onBlur="this.placeholder = '* Nombre :'" />
-                                                                <input type="text" name="email" class="validate['required','email']  textbox1" placeholder="* Correo : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Correo :'" />
-                                                                <input type="text" name="phone" class="validate['required','phone']  textbox1" placeholder="* Teléfono : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Teléfono :'" />
-                                                                <textarea name="message" class="validate['required'] messagebox1" placeholder="* Mensaje : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Mensaje :'"></textarea>
-                                                                <input id="contactsubmitBtn1" value="enviar" name="Confirm" type="submit" class="submitBtn" />
+                                                                <input type="text" name="name" class="validate['required'] textbox1" placeholder="* Nombre : " onfocus="this.placeholder = ''" onBlur="this.placeholder = '* Nombre :'" disabled/>
+                                                                <input type="text" name="email" class="validate['required','email']  textbox1" placeholder="* Correo : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Correo :'" disabled/>
+                                                                <input type="text" name="phone" class="validate['required','phone']  textbox1" placeholder="* Teléfono : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Teléfono :'" disabled/>
+                                                                <textarea name="message" class="validate['required'] messagebox1" placeholder="* Mensaje : " onFocus="this.placeholder = ''" onBlur="this.placeholder = '* Mensaje :'" disabled></textarea>
+                                                                <input id="contactsubmitBtn1" value="enviar" name="Confirm" type="submit" class="submitBtn" disabled/>
                                                             </div>
                                                         </form>
                                                     </div>

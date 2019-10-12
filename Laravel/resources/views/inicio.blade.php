@@ -130,6 +130,33 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Balance - Al 31 de Agosto de 2019</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mbalance01')"  data-toggle="modal" data-target="#balance01">
+                               								 <div class="spimg">
+                                    							<img src="{{ url('img/balance01.jpg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+												<div class="clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mbalance02')"  data-toggle="modal" data-target="#balance02">
+                               								 <div class="spimg">
+                                    							<img src="{{ url('img/balance02.jpg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">CONVOCATORIA DE AUDITORÍA FACEBOOK</div>
 											</div>
 											<div class="toggle-content">
@@ -327,6 +354,34 @@
                 <div class="modal-body">
                     <div class="spimg">
                         <img src="{{ url('img/convocatoriaDeAuditoriaFB.png') }}" alt="convocatoriaDeAuditoriaFB">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mbalance01">
+    <div id="balance01" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mbalance01" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/balance01.jpg') }}" alt="balance01">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mbalance02">
+    <div id="balance02" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mbalance02" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/balance02.jpg') }}" alt="balance02">
                     </div>
                 </div>
             </div>

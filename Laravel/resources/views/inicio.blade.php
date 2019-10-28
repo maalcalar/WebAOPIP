@@ -130,6 +130,33 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Comunicado Nro. 02-2019-CD 2019-2020</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcomunicado022019cd02')"  data-toggle="modal" data-target="#comunicado022019cd02">
+                               								 <div class="spimg">
+																<img src="{{ url('img/comunicado022019cd02.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+												<div class="clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcomunicado022019cd01')"  data-toggle="modal" data-target="#comunicado022019cd01">
+                               								 <div class="spimg">
+                                    							<img src="{{ url('img/comunicado022019cd01.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Balance - Al 31 de Agosto de 2019</div>
 											</div>
 											<div class="toggle-content">
@@ -346,6 +373,34 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mcomunicado022019cd01">
+    <div id="comunicado022019cd01" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado022019cd01" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/comunicado022019cd01.jpeg') }}" alt="comunicado022019cd01">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcomunicado022019cd02">
+    <div id="comunicado022019cd02" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado022019cd02" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/comunicado022019cd02.jpeg') }}" alt="comunicado022019cd02">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="convocatoria">
     <div id="lightbox2" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="convocatoria" aria-hidden="true">
         <div class="modal-dialog">

@@ -130,14 +130,89 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Fiesta del 31 de Octubre</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mfiesta20191031')"  data-toggle="modal" data-target="#fiesta20191031">
+                               								 <div class="spimg">
+																<img src="{{ url('img/fiesta20191031.png') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Comunicado Nro. 02-2019-CD 2019-2020</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcomunicado022019cd02')"  data-toggle="modal" data-target="#comunicado022019cd02">
+                               								 <div class="spimg">
+																<img src="{{ url('img/comunicado022019cd02.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+												<div class="clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcomunicado022019cd01')"  data-toggle="modal" data-target="#comunicado022019cd01">
+                               								 <div class="spimg">
+                                    							<img src="{{ url('img/comunicado022019cd01.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Balance - Al 31 de Agosto de 2019</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mbalance01')"  data-toggle="modal" data-target="#balance01">
+                               								 <div class="spimg">
+                                    							<img src="{{ url('img/balance01.jpg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+												<div class="clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mbalance02')"  data-toggle="modal" data-target="#balance02">
+                               								 <div class="spimg">
+                                    							<img src="{{ url('img/balance02.jpg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">CONVOCATORIA DE AUDITORÍA FACEBOOK</div>
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
-														<!--<h4>La final de la UEFA Champions League</h4>-->
-														<div class="text-center"><img src="img/convocatoriaDeAuditoriaFB.PNG" width="560" alt="convocatoriaDeAuditoriaFB"/></div>
-													</div>
+													<a href="">
+                            							<div onClick="modalshow('#convocatoria')"  data-toggle="modal" data-target="#lightbox2">
+                               								 <div class="spimg">
+                                    							<img src="{{ url('img/convocatoriaDeAuditoriaFB.png') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -149,10 +224,8 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<!--<h4>La final de la UEFA Champions League</h4>-->
 														<div class="text-center"><img src="img/fiestaAniversario71PIP.jpeg" width="560" alt="fiestaAniversario71PIP"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -164,13 +237,11 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<!--<h4>La final de la UEFA Champions League</h4>-->
 														<div class="text-center"><img src="img/Informe63-2019-Contabilidad_001.jpeg" width="560" alt="informa63_2019_contabilidad001"/></div>
 														<div class="text-center"><img src="img/Informe63-2019-Contabilidad_002.jpeg" width="560" alt="informa63_2019_contabilidad002"/></div>
 														<div class="text-center"><img src="img/Informe63-2019-Contabilidad_003.jpeg" width="560" alt="informa63_2019_contabilidad003"/></div>
 														<div class="text-center"><img src="img/Informe63-2019-Contabilidad_004.jpeg" width="560" alt="informa63_2019_contabilidad004"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -182,11 +253,9 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<div class="text-center"><img src="img/balance_01.jpeg" width="560" alt="balance_01"/></div>
 														<div class="text-center"><img src="img/balance_02.jpeg" width="560" alt="balance_02"/></div>
 														<div class="text-center"><img src="img/balance_03.jpeg" width="560" alt="balance_03"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -198,9 +267,7 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<div class="text-center"><img src="img/asamblea.jpeg" width="560" alt="asamblea"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -212,9 +279,7 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<div class="text-center"><img src="img/comunicadoCPMP.jpeg" width="560" alt="diaDelPadre"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -226,10 +291,8 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<!--<h4>La final de la UEFA Champions League</h4>-->
 														<div class="text-center"><img src="img/planaAdministrativa.png" width="560" alt="diaDelPadre"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -241,10 +304,8 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<!--<h4>La final de la UEFA Champions League</h4>-->
 														<div class="text-center"><img src="img/diaDelPadre.jpeg" width="560" alt="diaDelPadre"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -256,13 +317,11 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<!--<h4>La final de la UEFA Champions League</h4>-->
 														<p>Presentamos el balance trimestral con respecto al primer periodo.</p>
 														<div class="text-center"><img src="img/balanceTrimestral1_01.jpeg" width="560" alt="balanceTrimestral1_01" class="fa-rotate-90"/></div>
 														<div class="text-center"><img src="img/balanceTrimestral1_02.jpeg" width="560" alt="balanceTrimestral1_02"/></div>
 														<p><small>*Por problemas técnicos de nuestra página web se demoró la publicación.</small></p>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -274,13 +333,11 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<!--<h4>La final de la UEFA Champions League</h4>-->
 														<div class="text-center"><img src="img/amazonas_001.jpeg" width="560" alt="amazonas_001"/></div>
 														<div class="text-center"><img src="img/amazonas_002.jpeg" width="560" alt="amazonas_002"/></div>
 														<div class="text-center"><img src="img/amazonas_003.jpeg" width="560" alt="amazonas_003"/></div>
 														<div class="text-center"><img src="img/amazonas_004.jpeg" width="560" alt="amazonas_004"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -293,9 +350,7 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<div class="text-center"><img src="img/partidoPeruColombia.jpeg" width="560" alt="comunicado_001"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -307,10 +362,8 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content" >
 														<div class="text-center"><img src="img/comunicado_001.jpeg" width="560" alt="comunicado_001"/></div>
 														<div class="text-center"><img src="img/comunicado_002.jpeg" width="560" alt="comunicado_001"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -322,9 +375,7 @@
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
-													<div class="specials-content">
 														<div class="text-center"><img src="img/volante_20190601.png" width="560" alt="La final de la UEFA Champions League"/></div>
-													</div>
 												</div>
 											</div>
 										</div><!--// .toggle-container end-->
@@ -340,4 +391,88 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mfiesta20191031">
+    <div id="fiesta20191031" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfiesta20191031" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/fiesta20191031.png') }}" alt="fiesta20191031">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcomunicado022019cd01">
+    <div id="comunicado022019cd01" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado022019cd01" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/comunicado022019cd01.jpeg') }}" alt="comunicado022019cd01">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcomunicado022019cd02">
+    <div id="comunicado022019cd02" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado022019cd02" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/comunicado022019cd02.jpeg') }}" alt="comunicado022019cd02">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="convocatoria">
+    <div id="lightbox2" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="convocatoria" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/convocatoriaDeAuditoriaFB.png') }}" alt="convocatoriaDeAuditoriaFB">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mbalance01">
+    <div id="balance01" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mbalance01" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/balance01.jpg') }}" alt="balance01">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mbalance02">
+    <div id="balance02" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mbalance02" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/balance02.jpg') }}" alt="balance02">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 @endsection

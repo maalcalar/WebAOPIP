@@ -130,6 +130,24 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Fiesta del 31 de Octubre</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mfiesta20191031')"  data-toggle="modal" data-target="#fiesta20191031">
+                               								 <div class="spimg">
+																<img src="{{ url('img/fiesta20191031.png') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Comunicado Nro. 02-2019-CD 2019-2020</div>
 											</div>
 											<div class="toggle-content">
@@ -373,6 +391,20 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mfiesta20191031">
+    <div id="fiesta20191031" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfiesta20191031" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/fiesta20191031.png') }}" alt="fiesta20191031">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mcomunicado022019cd01">
     <div id="comunicado022019cd01" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado022019cd01" aria-hidden="true">
         <div class="modal-dialog">

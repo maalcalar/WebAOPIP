@@ -8,20 +8,33 @@ use App\Http\Controllers\Controller;
 
 class LoginController extends Controller
 {
+    public function __construct()
+    {
+        $this->middleware('guest', ['only' => 'showLogin']);
+    }
+
+    public function showLogin()
+    {
+        return view('auth.login');
+    }
+
     public function login()
     {
         $credentials = $this->validate(request(), [
             'email' => 'email|required|string', 
-            'contrasena' => 'required|string'
+            'password' => 'required|string'
+        ], [
+            'email' => 'El :attribute debe ser un :attribute válido.', 
+            'required' => 'El campo :attribute es obligatorio.'
         ]);
 
         if(Auth::attempt($credentials))
         {
-            return 'Has iniciado sesión.';
+            return redirect()->route('/admin/dashboard');
         }
 
         return back()
-            ->withErrors(['email' => trans('auth.failed')])
+            ->withErrors(['session' => 'Estas credenciales no son válidas.'])
             ->withInput(request(['email']));
     }
 

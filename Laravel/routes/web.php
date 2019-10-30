@@ -168,9 +168,9 @@ Route::view('/Contacto/Numeros_Anexos', 'numerosAnexos', ['fonts' => $fonts, 'st
 
 Route::redirect('/admin', '/admin/login', 301);
 
-Route::view('/admin/login', 'admin/login', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'page-login layout-full page-dark', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;']);
-
-Route::view('/admin/dashboard', 'admin/dashboard', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'dashboard', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;']);
+Route::get('/admin/login', 'Auth\LoginController@showLogin');
+//Route::view('/admin/login', 'admin/login', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'page-login layout-full page-dark', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;']);
+Route::view('/admin/dashboard', 'admin/dashboard', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'dashboard', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->name('/admin/dashboard');
 
 // Servicios
 // ---------

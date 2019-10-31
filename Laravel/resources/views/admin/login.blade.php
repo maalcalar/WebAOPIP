@@ -14,7 +14,9 @@
             <!--<img class="brand-img" src="{{ url('adminAssets/assets/images/logo.png')}}" alt="...">-->
             <h2 class="brand-text">AOPIP</h2>
         </div>
-        <p>Inicie sesión</p>
+        @if (session()->has('flash'))
+        <p class='text-danger'>{{ session('flash') }}</p>
+        @endif
         <form method="post" action="{{ route('login') }}">
             {{ csrf_field() }}
             <div class="form-group">

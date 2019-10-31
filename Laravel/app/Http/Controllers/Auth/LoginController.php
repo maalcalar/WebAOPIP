@@ -15,7 +15,8 @@ class LoginController extends Controller
 
     public function showLogin()
     {
-        return view('auth.login');
+        //return view('admin.login');
+        return redirect()->route('loginview');
     }
 
     public function login()
@@ -36,6 +37,13 @@ class LoginController extends Controller
         return back()
             ->withErrors(['session' => 'Estas credenciales no son válidas.'])
             ->withInput(request(['email']));
+    }
+
+    public function logout()
+    {
+        Auth::logout();
+
+        return redirect('/admin');
     }
 
     /*use AuthenticatesUsers;

@@ -17,16 +17,16 @@
         @endforeach
 
         @foreach ($stylesAdmin as $style)
-            @if (!isset($style['esLogin']) || ((!isset($esLogin)) && ($style['esLogin'])))
+            @if (!isset($style['esLogin']))
                 @if (isset($style['id']))
                 <link rel="stylesheet" href="{{ url($style['href']) }}" id="{{ $style['id'] }}" type="text/css"/>
-                @elseif (!isset($style['id']))
+                @else
                 <link rel="stylesheet" href="{{ url($style['href']) }}" type="text/css"/>
                 @endif
-            @elseif ((isset($esLogin)) && ($style['esLogin']))
+            @elseif (isset($style['esLogin']) && ($style['esLogin'] == $esLogin))
                 @if (isset($style['id']))
                 <link rel="stylesheet" href="{{ url($style['href']) }}" id="{{ $style['id'] }}" type="text/css"/>
-                @elseif (!isset($style['id']))
+                @else
                 <link rel="stylesheet" href="{{ url($style['href']) }}" type="text/css"/>
                 @endif
             @endif
@@ -59,21 +59,13 @@
             </div>
         </div>
 
-        <script>Config.set('assets', '{{ url("adminAssets/assets") }}');</script>
         @foreach ($bodyJsAdmin as $bjs)
-        @if (!isset($bjs['esLogin']) || ((!isset($esLogin)) && ($bjs['esLogin'])))
-        @if (isset($bjs['nopre']))
-        <script type="text/javascript" src="{{ $bjs['src'] }}"></script>
-        @elseif (!isset($bjs['nopre']))
-        <script type="text/javascript" src="{{ url($bjs['src']) }}"></script>
-        @endif
-        @elseif ((isset($esLogin)) && ($bjs['esLogin']))
-        @if (isset($bjs['nopre']))
-        <script type="text/javascript" src="{{ $bjs['src'] }}"></script>
-        @elseif (!isset($bjs['nopre']))
-        <script type="text/javascript" src="{{ url($bjs['src']) }}"></script>
-        @endif
-        @endif
+            @if (!isset($bjs['esLogin']))
+                <script type="text/javascript" src="{{ url($bjs['src']) }}"></script>
+            @elseif (isset($bjs['esLogin']) && ($bjs['esLogin'] == $esLogin))
+                <script type="text/javascript" src="{{ url($bjs['src']) }}"></script>
+            @endif
         @endforeach
+        <script>Config.set('assets', '{{ url("adminAssets/assets") }}');</script>
     </body>
 </html>

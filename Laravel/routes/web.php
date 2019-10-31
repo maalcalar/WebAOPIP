@@ -166,13 +166,13 @@ Route::view('/Contacto/Numeros_Anexos', 'numerosAnexos', ['fonts' => $fonts, 'st
 // Vista de administracion
 // -----------------------
 
-Route::redirect('/admin', '/admin/login', 301);
-
-Route::get('/admin/login', 'Auth\LoginController@showLogin');
-//Route::view('/admin/login', 'admin/login', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'page-login layout-full page-dark', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;']);
-Route::view('/admin/dashboard', 'admin/dashboard', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'dashboard', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->name('/admin/dashboard');
+Route::get('/admin', 'Auth\LoginController@showLogin');
+Route::view('/admin/login', 'admin/login', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'page-login layout-full page-dark', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->name('loginview');
+Route::view('/admin/dashboard', 'admin/dashboard', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => false, 'bodyClass' => 'dashboard', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->middleware('auth')->name('/admin/dashboard');
+Route::view('/admin/comunicados', 'admin/comunicados', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => false, 'bodyClass' => 'dashboard', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->middleware('auth')->name('/admin/comunicados');
 
 // Servicios
 // ---------
 
 Route::post('login', 'Auth\LoginController@login')->name('login');
+Route::post('logout', 'Auth\LoginController@logout')->name('logout');

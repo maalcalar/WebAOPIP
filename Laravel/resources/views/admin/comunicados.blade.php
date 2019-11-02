@@ -1457,38 +1457,34 @@
 <div class="page">
     <div class="page-content container-fluid">
         <div class="row" data-plugin="matchHeight" data-by-row="true">
-            <div class="col-xxl-7 col-lg-7">
-                <!-- Widget Linearea Color -->
-                <div class="panel">
+            <div class="col-12">
+                <!-- Panel Standard Editor -->
+                <form method="post" action="{{ route('insertarComunicados') }}" class="panel" autocompplete="off">
+                    {{ csrf_field() }}
                     <div class="panel-heading">
                         <h3 class="panel-title">Nuevo comunicado</h3>
                     </div>
-                    <div class="panel-body container-fluid">
-                        <form autocomplete="off">
-                            <div class="form-group form-material" data-plugin="formMaterial">
-                                <label class="form-control-label" for="inputText">Título</label>
-                                <input type="text" class="form-control" id="inputTitulo" name="inputTitulo" placeholder="Título"/>
-                            </div>
-                            <div class="form-group form-material" data-plugin="formMaterial">
-                                <label class="form-control-label" for="inputFile">File</label>
-                                <input type="text" class="form-control" placeholder="Browse.." readonly="" />
-                                <input type="file" id="inputFile" name="inputFile" multiple="" />
-                            </div>
-                            <div class="form-group form-material" data-plugin="formMaterial">
-                                <label class="form-control-label" for="textarea">Textarea</label>
-                                <textarea class="form-control" id="textarea" name="textarea" rows="3"></textarea>
-                            </div>
-                            <div class="col-md-9 offset-md-3">
-                                <button type="button" class="btn btn-primary">Publicar </button>
-                                <button type="reset" class="btn btn-default btn-outline">Reiniciar</button>
-                            </div>
-                        </form>
+                    {!! $errors->first('titulo', '<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>:message</div>') !!}
+                    {!! $errors->first('texto', '<div class="alert alert-danger alert-dismissible" role="alert"><button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>:message</div>') !!}
+                    <div class="panel-body">
+                        <div class="form-group form-material floating" data-plugin="formMaterial">
+                            <input type="text" class="form-control" name="titulo" value="{{ old('titulo') }}" />
+                            <label class="floating-label">Título</label>
+                        </div>
+                        <textarea id="summernote" data-plugin="summernote" name="texto">{{ old('texto') }}</textarea>
                     </div>
-                </div>
-                <!-- End Widget Linearea Color -->
+                    <div class="panel-footer">
+                        <div class="form-group row">
+                            <div class="col-md-9">
+                                <button type="submit" class="btn btn-primary" >Publicar</button>
+                                <!--<button type="reset" class="btn btn-default btn-outline">Reiniciar</button>-->
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <!-- End Panel Standard Editor -->
             </div>
-
-            <div class="col-xxl-5 col-lg-5">
+            <div class="col-12">
                 <!-- Panel Watchlist -->
                 <div class="card card-shadow" id="widgetTable">
                     <div class="card-block p-30">
@@ -1520,51 +1516,18 @@
                                             <span class="icon wb-thumb-down" aria-hidden="true"></span> <span class="red-600"> 4</span>
                                         </td>
                                     </tr>
+                                    @foreach ($comunicados as $comunicado)
                                     <tr>
-                                        <td>KPM</td>
-                                        <td>$ 15,425</td>
-                                        <td class="red-600">- 1,632</td>
+                                        <td>{{ $comunicado->titulo }}</td>
+                                        <td>
+                                            <span class="icon wb-eye" aria-hidden="true"></span> {{ $comunicado->vistas }}
+                                        </td>
+                                        <td>
+                                            <span class="icon wb-thumb-up" aria-hidden="true"></span> <span class="green-600"> {{ $comunicado->me_gusta }}</span>
+                                            <span class="icon wb-thumb-down" aria-hidden="true"></span> <span class="red-600"> {{ $comunicado->no_me_gusta }}</span>
+                                        </td>
                                     </tr>
-                                    <tr>
-                                        <td>PTR</td>
-                                        <td>$ 11,540</td>
-                                        <td class="green-600">+ 8,326</td>
-                                    </tr>
-                                    <tr>
-                                        <td>HGM</td>
-                                        <td>$ 15,855</td>
-                                        <td class="green-600">+ 11,326</td>
-                                    </tr>
-                                    <tr>
-                                        <td>MKR</td>
-                                        <td>$ 18,500</td>
-                                        <td class="red-600">- 6,586</td>
-                                    </tr>
-                                    <tr>
-                                        <td>GMY</td>
-                                        <td>$ 9,500</td>
-                                        <td class="green-600">+ 458</td>
-                                    </tr>
-                                    <tr>
-                                        <td>KPM</td>
-                                        <td>$ 15,425</td>
-                                        <td class="red-600">- 1,632</td>
-                                    </tr>
-                                    <tr>
-                                        <td>PTR</td>
-                                        <td>$ 11,540</td>
-                                        <td class="green-600">+ 8,326</td>
-                                    </tr>
-                                    <tr>
-                                        <td>HGM</td>
-                                        <td>$ 15,855</td>
-                                        <td class="green-600">+ 11,326</td>
-                                    </tr>
-                                    <tr>
-                                        <td>MKR</td>
-                                        <td>$ 18,500</td>
-                                        <td class="red-600">- 6,586</td>
-                                    </tr>
+                                    @endforeach
                                 </tbody>
                             </table>
                         </div>

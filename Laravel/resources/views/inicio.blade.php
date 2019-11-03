@@ -127,7 +127,20 @@
 									<h1 class="text-center">Comunicados</h1>
 									<p>Entérate de todo lo que sucede en el club AOPIP.</p> <br />
 									<!-- div one created -->
-									<div class="pad_top30">
+									@foreach ($comunicados as $comunicado)
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">{{ $comunicado->titulo }}</div>
+											</div>
+											<div class="toggle-content">
+												{{!! $comunicado->texto !!}}
+											</div>
+										</div>
+									</div>
+									@endforeach
+
+									<div class="clearfix">
 										<div class="toggle-container">
 											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Balance - Al 31 de Agosto de 2019</div>

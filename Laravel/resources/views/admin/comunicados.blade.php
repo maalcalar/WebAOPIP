@@ -33,21 +33,21 @@
         <ul class="nav navbar-toolbar">
         <li class="nav-item hidden-float" id="toggleMenubar">
             <a class="nav-link" data-toggle="menubar" href="#" role="button">
-            <i class="icon hamburger hamburger-arrow-left">
-                <span class="sr-only">Toggle menubar</span>
-                <span class="hamburger-bar"></span>
-            </i>
+                <i class="icon hamburger hamburger-arrow-left">
+                    <span class="sr-only">Toggle menubar</span>
+                    <span class="hamburger-bar"></span>
+                </i>
             </a>
         </li>
         <li class="nav-item hidden-sm-down" id="toggleFullscreen">
             <a class="nav-link icon icon-fullscreen" data-toggle="fullscreen" href="#" role="button">
-            <span class="sr-only">Toggle fullscreen</span>
+                <span class="sr-only">Toggle fullscreen</span>
             </a>
         </li>
         <li class="nav-item hidden-float">
             <a class="nav-link icon wb-search" data-toggle="collapse" href="#" data-target="#site-navbar-search"
             role="button">
-            <span class="sr-only">Toggle Search</span>
+                <span class="sr-only">Toggle Search</span>
             </a>
         </li>
         <li class="nav-item dropdown dropdown-fw dropdown-mega">
@@ -1491,7 +1491,7 @@
                     <h3 class="card-title">
                         <span class="text-truncate">Comunicados publicados</span>
                         <div class="card-header-actions">
-                            <span class="red-600 font-size-24">12</span>
+                            <span class="red-600 font-size-24">{{ count($comunicados) }}</span>
                         </div>
                     </h3>
                     <form class="mt-25" action="#" role="search">
@@ -1503,19 +1503,15 @@
                 </div>
                 <div class="h-350" data-plugin="scrollable">
                     <div data-role="container">
+                        <!--<div class="toolbar-icons" id="user-options" hidden>
+                            <a href="javascript:void(0)"><i class="icon wb-edit" aria-hidden="true"></i></a>
+                            <a href="javascript:void(0)"><i class="icon wb-eye" aria-hidden="true"></i></a>
+                            <a href="javascript:void(0)"><i class="icon wb-eye-close" aria-hidden="true"></i></a>
+                            <a href="javascript:void(0)"><i class="icon wb-trash" aria-hidden="true"></i></a>
+                        </div>-->
                         <div data-role="content">
                             <table class="table mb-0">
                                 <tbody>
-                                    <tr>
-                                        <td>COMUNICADO Nº02-2019-CD 2019-2020</td>
-                                        <td>
-                                            <span class="icon wb-eye" aria-hidden="true"></span> 536
-                                        </td>
-                                        <td>
-                                            <span class="icon wb-thumb-up" aria-hidden="true"></span> <span class="green-600"> 23</span>
-                                            <span class="icon wb-thumb-down" aria-hidden="true"></span> <span class="red-600"> 4</span>
-                                        </td>
-                                    </tr>
                                     @foreach ($comunicados as $comunicado)
                                     <tr>
                                         <td>{{ $comunicado->titulo }}</td>
@@ -1526,6 +1522,11 @@
                                             <span class="icon wb-thumb-up" aria-hidden="true"></span> <span class="green-600"> {{ $comunicado->me_gusta }}</span>
                                             <span class="icon wb-thumb-down" aria-hidden="true"></span> <span class="red-600"> {{ $comunicado->no_me_gusta }}</span>
                                         </td>
+                                        <!--<td>
+                                            <button type="button" class="btn btn-icon btn-dark btn-pure" data-plugin="toolbar" data-toolbar="#user-options">
+                                                <i class="icon wb-settings" aria-hidden="true"></i>
+                                            </button>
+                                        </td>-->
                                     </tr>
                                     @endforeach
                                 </tbody>

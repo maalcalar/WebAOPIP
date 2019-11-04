@@ -51,8 +51,10 @@ Route::view('/Contacto/Numeros_Anexos', 'numerosAnexos', ['fonts' => $fonts, 'st
 
 Route::get('/admin', 'Auth\LoginController@showLogin');
 Route::view('/admin/login', 'admin/login', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => true, 'bodyClass' => 'page-login layout-full page-dark', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->name('loginview');
-Route::view('/admin/dashboard', 'admin/dashboard', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => false, 'bodyClass' => 'dashboard', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->middleware('auth')->name('/admin/dashboard');
+//Route::view('/admin/dashboard', 'admin/dashboard', ['fontsAdmin' => $fontsAdmin, 'stylesAdmin' => $cssAdmin, 'headJsAdmin' => $headJsAdmin, 'bodyJsAdmin' => $bodyJsAdmin, 'esLogin' => false, 'bodyClass' => 'dashboard', 'bodyStyle' => 'animation-duration: 800ms; opacity: 1;'])->middleware('auth')->name('/admin/dashboard');
+Route::get('/admin/dashboard', 'VistasController@adminDashboard')->middleware('auth')->name('/admin/dashboard');
 Route::get('/admin/comunicados', 'ComunicadosController@view')->name('/admin/comunicados');
+Route::get('/admin/menuCasuarinas', 'VistasController@menuCasuarinas')->name('/admin/menuCasuarinas');
 
 // Servicios
 // ---------
@@ -66,3 +68,5 @@ Route::post('traerRComunicados', 'ComunicadosController@traerR')->name('traerRCo
 Route::post('actualizarComunicados', 'ComunicadosController@actualizar')->name('actualizarComunicados');
 Route::post('deshabilitarComunicados', 'ComunicadosController@deshabilitar')->name('deshabilitarComunicados');
 Route::post('eliminarComunicados', 'ComunicadosController@eliminar')->name('eliminarComunicados');
+
+Route::post('AyudaController/cargarSemanasPorAno', 'AyudaController@cargarSemanasPorAno')->name('AyudaController/cargarSemanasPorAno');

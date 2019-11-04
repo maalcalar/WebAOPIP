@@ -1,4 +1,4 @@
-
+@extends('layouts.adminMenu')
 <!DOCTYPE html>
 <html class="no-js css-menubar" lang="en">
     <head>
@@ -49,10 +49,16 @@
             Breakpoints();
         </script>
     </head>
-    <body class="animsition {{$bodyClass}}" style="{{$bodyStyle}}">
+    <body class="animsition {{$bodyClass}}" style="{{$bodyStyle}}}">
         <div id="wrapper">
             <div id="mask">
-                
+                <!--[if lt IE 8]>
+                    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+                <![endif]-->
+                @if (!$esLogin)
+                    @section('adminMenu')
+                    @show
+                @endif
 
                 @section('contenido')
                 @show
@@ -61,9 +67,17 @@
 
         @foreach ($bodyJsAdmin as $bjs)
             @if (!isset($bjs['esLogin']))
+                @if (isset($bjs['crossorigin']))
+                <script type="text/javascript" src="{{ url($bjs['src']) }}" crossorigin></script>
+                @else
                 <script type="text/javascript" src="{{ url($bjs['src']) }}"></script>
+                @endif
             @elseif (isset($bjs['esLogin']) && ($bjs['esLogin'] == $esLogin))
+                @if (isset($bjs['crossorigin']))
+                <script type="text/javascript" src="{{ url($bjs['src']) }}" crossorigin></script>
+                @else
                 <script type="text/javascript" src="{{ url($bjs['src']) }}"></script>
+                @endif
             @endif
         @endforeach
         <script>Config.set('assets', '{{ url("adminAssets/assets") }}');</script>

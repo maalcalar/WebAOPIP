@@ -48,15 +48,8 @@
     <body>
         <div id="wrapper">
             <div id="mask">
-                @if ($esInicio)
-                <div class="mainheaderslide" id="slide">
-                    @section('menuBar')
-                    @show
-                </div>
-                @else
-                    @section('menuBar')
-                    @show
-                @endif
+                @section('menuBar')
+                @show
 
                 @section('contenido')
                 @show

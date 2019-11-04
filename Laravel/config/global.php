@@ -31,15 +31,15 @@ return [
         array('href' => 'adminAssets/global/vendor/intro-js/introjs.css'), 
         array('href' => 'adminAssets/global/vendor/slidepanel/slidePanel.css'), 
         array('href' => 'adminAssets/global/vendor/flag-icon-css/flag-icon.css'), 
-        array('href' => 'adminAssets/global/vendor/waves/waves.css', 'esLogin' => false), 
+        /*array('href' => 'adminAssets/global/vendor/waves/waves.css', 'esLogin' => false), 
         array('href' => 'adminAssets/global/vendor/chartist/chartist.css', 'esLogin' => false), 
         array('href' => 'adminAssets/global/vendor/jvectormap/jquery-jvectormap.css', 'esLogin' => false), 
         array('href' => 'adminAssets/global/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.css', 'esLogin' => false), 
-        array('href' => 'adminAssets/assets/examples/css/dashboard/v1.css', 'esLogin' => false), 
+        array('href' => 'adminAssets/assets/examples/css/dashboard/v1.css', 'esLogin' => false), */
     
         array('href' => 'adminAssets/assets/examples/css/pages/login.css', 'esLogin' => true), 
     
-        array('href' => 'adminAssets/global/fonts/weather-icons/weather-icons.css', 'esLogin' => false), 
+        /*array('href' => 'adminAssets/global/fonts/weather-icons/weather-icons.css', 'esLogin' => false), */
         array('href' => 'adminAssets/global/fonts/web-icons/web-icons.min.css'), 
         array('href' => 'adminAssets/global/fonts/brand-icons/brand-icons.min.css'), 
         array('href' => 'adminAssets/global/fonts/Roboto_300_400_500_italic.css')
@@ -99,13 +99,13 @@ return [
         array('src' => 'adminAssets/global/vendor/screenfull/screenfull.js'), 
         array('src' => 'adminAssets/global/vendor/slidepanel/jquery-slidePanel.js'), 
     
-        array('src' => 'adminAssets/global/vendor/skycons/skycons.js', 'esLogin' => false), 
+        /*array('src' => 'adminAssets/global/vendor/skycons/skycons.js', 'esLogin' => false), 
         array('src' => 'adminAssets/global/vendor/chartist/chartist.min.js', 'esLogin' => false), 
         array('src' => 'adminAssets/global/vendor/chartist-plugin-tooltip/chartist-plugin-tooltip.js', 'esLogin' => false), 
         array('src' => 'adminAssets/global/vendor/aspieprogress/jquery-asPieProgress.min.js', 'esLogin' => false), 
         array('src' => 'adminAssets/global/vendor/jvectormap/jquery-jvectormap.min.js', 'esLogin' => false), 
         array('src' => 'adminAssets/global/vendor/jvectormap/maps/jquery-jvectormap-au-mill-en.js', 'esLogin' => false), 
-        array('src' => 'adminAssets/global/vendor/matchheight/jquery.matchHeight-min.js', 'esLogin' => false), 
+        array('src' => 'adminAssets/global/vendor/matchheight/jquery.matchHeight-min.js', 'esLogin' => false), */
     
         array('src' => 'adminAssets/global/vendor/jquery-placeholder/jquery.placeholder.js', 'esLogin' => true), 
     
@@ -127,9 +127,12 @@ return [
         array('src' => 'adminAssets/global/js/Plugin/asscrollable.js'), 
         array('src' => 'adminAssets/global/js/Plugin/slidepanel.js'), 
         array('src' => 'adminAssets/global/js/Plugin/switchery.js'), 
-        array('src' => 'adminAssets/global/js/Plugin/matchheight.js', 'esLogin' => false), 
+        /*array('src' => 'adminAssets/global/js/Plugin/matchheight.js', 'esLogin' => false), 
         array('src' => 'adminAssets/global/js/Plugin/jvectormap.js', 'esLogin' => false), 
         array('src' => 'adminAssets/assets/examples/js/dashboard/v1.js', 'esLogin' => false), 
-        array('src' => 'adminAssets/global/js/Plugin/jquery-placeholder.js', 'esLogin' => true), 
+        array('src' => 'adminAssets/global/js/Plugin/jquery-placeholder.js', 'esLogin' => true),*/ 
+
+        array('src' => 'js/react.development.js', 'crossorigin' => true), 
+        array('src' => 'js/react-dom.development.js', 'crossorigin' => true), 
     )
 ];

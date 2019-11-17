@@ -134,7 +134,7 @@
 												<div class="toggle-link toggle-open">{{ $comunicado->titulo }}</div>
 											</div>
 											<div class="toggle-content">
-												{{!! $comunicado->texto !!}}
+												{!! $comunicado->texto !!}
 											</div>
 										</div>
 									</div>

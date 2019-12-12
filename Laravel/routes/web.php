@@ -70,3 +70,4 @@ Route::post('deshabilitarComunicados', 'ComunicadosController@deshabilitar')->na
 Route::post('eliminarComunicados', 'ComunicadosController@eliminar')->name('eliminarComunicados');
 
 Route::post('AyudaController/cargarSemanasPorAno', 'AyudaController@cargarSemanasPorAno')->name('AyudaController/cargarSemanasPorAno');
+Route::get('AyudaController/cargarComunicados', 'AyudaController@cargarComunicados')->name('AyudaController/cargarComunicados');

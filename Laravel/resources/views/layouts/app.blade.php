@@ -58,9 +58,9 @@
 
         @foreach ($bodyJs as $bjs)
         @if (isset($bjs['nopre']))
-        <script type="text/javascript" src="{{ $bjs['src'] }}"></script>
+        <script type="<?php echo isset($bjs['type'])? $bjs['type']:'text/javascript' ; ?>" src="{{ $bjs['src'] }}"></script>
         @else
-        <script type="text/javascript" src="{{ url('js/' . $bjs['src']) }}"></script>
+        <script type="<?php echo isset($bjs['type'])? $bjs['type']:'text/javascript' ; ?>" src="{{ url('js/' . $bjs['src']) }}"></script>
         @endif
         @endforeach
     </body>

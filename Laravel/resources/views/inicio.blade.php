@@ -121,11 +121,12 @@
 				<div class="modal-dialog">
 					<div class="modal-content">
 						<button class="close" data-dismiss="modal"><img src="img/close.png" alt=" "></button>
-						<div class="modal-body">
+						<div id="root" class="modal-body">
 							<div class="content_overlay">
+								<h1 class="text-center">Comunicados</h1>
 								<div class="content_text contentscroll">
-									<h1 class="text-center">Comunicados</h1>
-									<p>Entérate de todo lo que sucede en el club AOPIP.</p> <br />
+									<!--<div id="root"></div>-->
+
 									<!-- div one created -->
 									@foreach ($comunicados as $comunicado)
 									<div class="clearfix">
@@ -135,6 +136,13 @@
 											</div>
 											<div class="toggle-content">
 												{!! $comunicado->texto !!}
+												<div class="row">
+													<div class="col-xs-6">
+													</div>
+													<div class="col-xs-6 text-right">
+														<p class="help-block"></p>
+													</div>
+												</div>
 											</div>
 										</div>
 									</div>
@@ -401,4 +409,10 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    var routes = {
+        'cargarComunicados': "{{ route('AyudaController/cargarComunicados') }}"
+    };
+</script>
 @endsection

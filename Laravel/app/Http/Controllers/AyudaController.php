@@ -10,6 +10,11 @@ use Illuminate\Support\Facades\Response;
 
 class AyudaController extends Controller
 {
+    public function __construct()
+    {
+        $this->ComunicadosController = new ComunicadosController();
+    }
+
     public function cargarSemanasPorAno()
 	{
         $validator = Validator::make(request()->all(), [
@@ -57,5 +62,14 @@ class AyudaController extends Controller
 
             return $semanas;
         }
-	}
+    }
+    
+    public function cargarComunicados()
+    {
+        $comunicados = $this->ComunicadosController->traerR();
+
+        $comunicados = Response::json($comunicados,200);
+
+        return $comunicados;
+    }
 }

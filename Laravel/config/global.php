@@ -76,7 +76,11 @@ return [
         array('src' => 'jquery.cycle.all.js'), 
         array('src' => 'jquery.cycle2.caption2.js'), 
         array('src' => 'jquery_cycle_custom.js'), 
-        array('src' => 'custom_general.js')
+        array('src' => 'custom_general.js'),
+
+        array('src' => 'js/react.development.js', 'crossorigin' => true, 'nopre' => true), 
+        array('src' => 'js/react-dom.development.js', 'crossorigin' => true, 'nopre' => true), 
+        array('src' => 'babel.min.js'), 
     ),
     
     'bodyJsAdmin' => array(

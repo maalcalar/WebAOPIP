@@ -21,7 +21,7 @@ class VistasController extends Controller
         $fonts = config('global.fonts');
         $css = config('global.css');
         $headJs = config('global.headJs');
-        $bodyJs = config('global.bodyJs');
+        $bodyJs = array_merge(config('global.bodyJs'), [['src' => 'reactjsControllers/indexInicio.js', 'nopre' => true, 'type' => 'text/jsx']]);
 
         return view('inicio', 
         ['fonts' => $fonts, 'styles' => array_merge($css, array(array('href' => 'portfolio_new.css'), array('href' => 'prettyPhoto.css'))), 'headJs' => $headJs, 'bodyJs' => array_merge($bodyJs, array(array('src' => 'jquery.prettyPhoto.js'), array('src' => 'jquery.mixitup.min.js'), array('src' => 'prettyphoto-custom.js'))), 'esInicio' => true, 'idMenuBar' => 'mainheader', 'comunicados' => $this->ComunicadosController->traerR()]);

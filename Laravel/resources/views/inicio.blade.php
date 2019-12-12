@@ -130,6 +130,31 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Estados Financieros</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mef201912121')"  data-toggle="modal" data-target="#ef201912121">
+                               								 <div class="spimg">
+																<img src="{{ url('img/ef201912121.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+													<a href="">
+                            							<div onClick="modalshow('#mef201912122')"  data-toggle="modal" data-target="#ef201912122">
+                               								 <div class="spimg">
+																<img src="{{ url('img/ef201912122.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Fiesta del 31 de Octubre</div>
 											</div>
 											<div class="toggle-content">
@@ -391,6 +416,34 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mef201912121">
+    <div id="ef201912121" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mef201912121" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/ef201912121.jpeg') }}" alt="ef201912121">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mef201912122">
+    <div id="ef201912122" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mef201912122" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/ef201912122.jpeg') }}" alt="ef201912122">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mfiesta20191031">
     <div id="fiesta20191031" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfiesta20191031" aria-hidden="true">
         <div class="modal-dialog">

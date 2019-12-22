@@ -130,6 +130,24 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Felices Fiestas 2020</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mfelicesFiestas2020')"  data-toggle="modal" data-target="#felicesFiestas2020">
+                               								 <div class="spimg">
+																<img src="{{ url('img/felices_fiestas_2020.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Estados Financieros</div>
 											</div>
 											<div class="toggle-content">
@@ -416,6 +434,20 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mfelicesfiestas2020">
+    <div id="felicesfiestas2020" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfelicesfiestas2020" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/felices_fiestas_2020.jpeg') }}" alt="felices_fiestas_2020">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mef201912121">
     <div id="ef201912121" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mef201912121" aria-hidden="true">
         <div class="modal-dialog">

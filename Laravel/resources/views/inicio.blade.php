@@ -130,6 +130,51 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Estados Financieros</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#meeff_001')"  data-toggle="modal" data-target="#eeff_001">
+                               								 <div class="spimg">
+																<img src="{{ url('img/eeff_001.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#meeff_002')"  data-toggle="modal" data-target="#eeff_002">
+                               								 <div class="spimg">
+																<img src="{{ url('img/eeff_002.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#meeff_003')"  data-toggle="modal" data-target="#eeff_003">
+                               								 <div class="spimg">
+																<img src="{{ url('img/eeff_003.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#meeff_004')"  data-toggle="modal" data-target="#eeff_004">
+                               								 <div class="spimg">
+																<img src="{{ url('img/eeff_004.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Felices Fiestas 2020</div>
 											</div>
 											<div class="toggle-content">
@@ -434,6 +479,62 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="meeff_001">
+    <div id="eeff_001" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="meeff_001" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/eeff_001.jpeg') }}" alt="felices_fiestas_2020">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="meeff_002">
+    <div id="eeff_002" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="meeff_002" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/eeff_002.jpeg') }}" alt="felices_fiestas_2020">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="meeff_003">
+    <div id="eeff_003" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="meeff_003" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/eeff_003.jpeg') }}" alt="felices_fiestas_2020">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="meeff_004">
+    <div id="eeff_004" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="meeff_004" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/eeff_004.jpeg') }}" alt="felices_fiestas_2020">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mfelicesfiestas2020">
     <div id="felicesfiestas2020" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfelicesfiestas2020" aria-hidden="true">
         <div class="modal-dialog">

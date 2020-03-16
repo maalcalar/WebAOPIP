@@ -130,6 +130,25 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">CIERRE TEMPORTAL DE NUESTRAS INSTALACIONES</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcierre')"  data-toggle="modal" data-target="#cierre">
+                               								 <div class="spimg">
+																<img src="{{ url('img/cierre.png') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="clearfix">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Asamblea General Ordinaria</div>
 											</div>
 											<div class="toggle-content">
@@ -497,6 +516,20 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mcierre">
+    <div id="cierre" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcierre" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/cierre.png') }}" alt="cierre">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="masamblea_2020_01">
     <div id="asamblea_2020_01" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="masamblea_2020_01" aria-hidden="true">
         <div class="modal-dialog">

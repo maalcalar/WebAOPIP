@@ -130,6 +130,24 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Decreto</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mdecreto')"  data-toggle="modal" data-target="#decreto">
+                               								 <div class="spimg">
+																<img src="{{ url('img/decreto.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">#YoMeQuedoEnCasa</div>
 											</div>
 											<div class="toggle-content">
@@ -145,7 +163,6 @@
 											</div>
 										</div><!--// .toggle-container end-->
 									</div><!-- div one created ends here -->
-									<!-- div one created -->
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
@@ -535,6 +552,20 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mdecreto">
+    <div id="decreto" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mdecreto" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/decreto.jpeg') }}" alt="decreto">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mcovid19">
     <div id="covid19" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcovid19" aria-hidden="true">
         <div class="modal-dialog">

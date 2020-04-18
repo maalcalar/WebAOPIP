@@ -130,6 +130,25 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Q.E.P.D Comandante PNP Federico Dario Leyva Huapaya</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mfallecido')"  data-toggle="modal" data-target="#fallecido">
+                               								 <div class="spimg">
+																<img src="{{ url('img/fallecido.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">COMUNICADO Nº6-2020-AOPIP-CD</div>
 											</div>
 											<div class="toggle-content">
@@ -165,24 +184,6 @@
 										</div><!--// .toggle-container end-->
 									</div><!-- div one created ends here -->	
 									<!-- div one created -->
-									<div class="pad_top30">
-										<div class="toggle-container">
-											<div class="toggle-header">
-												<div class="toggle-link toggle-open">#YoMeQuedoEnCasa</div>
-											</div>
-											<div class="toggle-content">
-												<div class="pad_top20 clearfix">
-													<a href="">
-                            							<div onClick="modalshow('#mcovid19')"  data-toggle="modal" data-target="#covid19">
-                               								 <div class="spimg">
-																<img src="{{ url('img/covid19.jpeg') }}" class="img-responsive" alt="">
-                              								</div>
-                           						 		</div>
-                        							</a>
-												</div>
-											</div>
-										</div><!--// .toggle-container end-->
-									</div><!-- div one created ends here -->
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
@@ -572,6 +573,20 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mfallecido">
+    <div id="fallecido" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfallecido" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/fallecido.jpeg') }}" alt="fallecido">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mcomunicado06">
     <div id="comunicado06" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado06" aria-hidden="true">
         <div class="modal-dialog">
@@ -594,20 +609,6 @@
                 <div class="modal-body">
                     <div class="spimg">
                         <img src="{{ url('img/decreto.jpeg') }}" alt="decreto">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="mcovid19">
-    <div id="covid19" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcovid19" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
-                <div class="modal-body">
-                    <div class="spimg">
-                        <img src="{{ url('img/covid19.jpeg') }}" alt="covid19">
                     </div>
                 </div>
             </div>

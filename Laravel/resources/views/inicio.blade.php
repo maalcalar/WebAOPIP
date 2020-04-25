@@ -130,6 +130,25 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">COMUNICADO Nº 07-2020-CD-AOPIP</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcomunicado07')"  data-toggle="modal" data-target="#comunicado07">
+                               								 <div class="spimg">
+																<img src="{{ url('img/comunicado07.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Q.E.P.D Comandante PNP Federico Dario Leyva Huapaya</div>
 											</div>
 											<div class="toggle-content">
@@ -573,6 +592,21 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mcomunicado07">
+    <div id="comunicado07" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado07" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/comunicado07.jpeg') }}" alt="comunicado07">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcomunicado06">
 <div id="mfallecido">
     <div id="fallecido" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfallecido" aria-hidden="true">
         <div class="modal-dialog">

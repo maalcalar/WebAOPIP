@@ -135,9 +135,9 @@
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">
 													<a href="">
-                            							<div onClick="modalshow('#mfallecidowalter')"  data-toggle="modal" data-target="#fallecidowalter">
+                            							<div onClick="modalshow('#mcwalter')"  data-toggle="modal" data-target="#cwalter">
                                								 <div class="spimg">
-																<img src="{{ url('img/fallecidowalter.jpeg') }}" class="img-responsive" alt="">
+																<img src="{{ url('img/cwalter.jpeg') }}" class="img-responsive" alt="">
                               								</div>
                            						 		</div>
                         							</a>
@@ -725,14 +725,14 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
-<div id="mfallecidowalter">
-    <div id="fallecidowalter" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mfallecidowalter" aria-hidden="true">
+<div id="mcwalter">
+    <div id="cwalter" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcwalter" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
                 <div class="modal-body">
                     <div class="spimg">
-                        <img src="{{ url('img/fallecidowalter.jpeg') }}" alt="fallecidowalter">
+                        <img src="{{ url('img/cwalter.jpeg') }}" alt="cwalter">
                     </div>
                 </div>
             </div>

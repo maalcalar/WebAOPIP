@@ -130,6 +130,120 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">XLVIII ANIVERSARIO AOPIP</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#maniversariopip')"  data-toggle="modal" data-target="#aniversariopip">
+                               								 <div class="spimg">
+																<img src="{{ url('img/aniversariopip.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Q.E.P.D Coronel PNP (r) Mario Guillermo Rivas Cortez</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcmario5')"  data-toggle="modal" data-target="#cmario5">
+                               								 <div class="spimg">
+																<img src="{{ url('img/cmario5.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Q.E.P.D Mayor PIP (r) Luis Alberto Poon Chávez</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcluis4')"  data-toggle="modal" data-target="#cluis4">
+                               								 <div class="spimg">
+																<img src="{{ url('img/cluis4.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Q.E.P.D Coronel PNP (r) Juan Miguel Farro Moncada</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcjuan3')"  data-toggle="modal" data-target="#cjuan3">
+                               								 <div class="spimg">
+																<img src="{{ url('img/cjuan3.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Q.E.P.D Comandante PNP (r) Oscar Antonio Juanito Miranda</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcoscar2')"  data-toggle="modal" data-target="#coscar2">
+                               								 <div class="spimg">
+																<img src="{{ url('img/coscar2.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Q.E.P.D Comandante PNP (r) Manuel Enrique Barreda Febres</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mcmanuel1')"  data-toggle="modal" data-target="#cmanuel1">
+                               								 <div class="spimg">
+																<img src="{{ url('img/cmanuel1.jpeg') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">COMUNICADO Nº 07-2020-CD-AOPIP</div>
 											</div>
 											<div class="toggle-content">
@@ -592,6 +706,90 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="maniversariopip">
+    <div id="aniversariopip" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="maniversariopip" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/aniversariopip.jpeg') }}" alt="aniversariopip">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcmario5">
+    <div id="cmario5" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcmario5" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/cmario5.jpeg') }}" alt="cmario5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcluis4">
+    <div id="cluis4" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcluis4" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/cluis4.jpeg') }}" alt="cluis4">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcjuan3">
+    <div id="cjuan3" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcjuan3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/cjuan3.jpeg') }}" alt="cjuan3">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcoscar2">
+    <div id="coscar2" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcoscar2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/coscar2.jpeg') }}" alt="coscar2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mcmanuel1">
+    <div id="cmanuel1" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcmanuel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/cmanuel1.jpeg') }}" alt="cmanuel1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mcomunicado07">
     <div id="comunicado07" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcomunicado07" aria-hidden="true">
         <div class="modal-dialog">

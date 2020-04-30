@@ -130,7 +130,7 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
-												<div class="toggle-link toggle-open">Q.E.P.D Mayorl PNP Walter José Rivas Cabezas</div>
+												<div class="toggle-link toggle-open">Q.E.P.D Mayor PNP Walter José Rivas Cabezas</div>
 											</div>
 											<div class="toggle-content">
 												<div class="pad_top20 clearfix">

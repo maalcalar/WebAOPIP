@@ -137,7 +137,7 @@
 													<a href="">
                             							<div onClick="modalshow('#mcwalter')"  data-toggle="modal" data-target="#cwalter">
                                								 <div class="spimg">
-																<img src="{{ url('img/cwalter.jpeg') }}" class="img-responsive" alt="">
+																<img src="{{ url('img/cwalter.jpg') }}" class="img-responsive" alt="">
                               								</div>
                            						 		</div>
                         							</a>
@@ -732,7 +732,7 @@
                 <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
                 <div class="modal-body">
                     <div class="spimg">
-                        <img src="{{ url('img/cwalter.jpeg') }}" alt="cwalter">
+                        <img src="{{ url('img/cwalter.jpg') }}" alt="cwalter">
                     </div>
                 </div>
             </div>

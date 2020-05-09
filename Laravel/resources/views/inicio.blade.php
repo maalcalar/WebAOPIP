@@ -130,6 +130,44 @@
 									<div class="pad_top30">
 										<div class="toggle-container">
 											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Felíz Día del Trabajador</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mctrabajador2')"  data-toggle="modal" data-target="#ctrabajador2">
+                               								 <div class="spimg">
+																<img src="{{ url('img/ctrabajador2.png') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
+												<div class="toggle-link toggle-open">Vencedores del 02 de Mayo - HALCONES</div>
+											</div>
+											<div class="toggle-content">
+												<div class="pad_top20 clearfix">
+													<a href="">
+                            							<div onClick="modalshow('#mctrabajador1')"  data-toggle="modal" data-target="#ctrabajador1">
+                               								 <div class="spimg">
+																<img src="{{ url('img/ctrabajador1.png') }}" class="img-responsive" alt="">
+                              								</div>
+                           						 		</div>
+                        							</a>
+												</div>
+											</div>
+										</div><!--// .toggle-container end-->
+									</div><!-- div one created ends here -->
+									<!-- div one created -->
+									<div class="pad_top30">
+										<div class="toggle-container">
+											<div class="toggle-header">
 												<div class="toggle-link toggle-open">Q.E.P.D Mayor PNP Walter José Rivas Cabezas</div>
 											</div>
 											<div class="toggle-content">
@@ -725,6 +763,34 @@
 	<!--</div>-->
 <!--</div>-->
 <!-- // Wrapper =============================-->
+<div id="mctrabajador2">
+    <div id="ctrabajador2" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mctrabajador2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/ctrabajador2.png') }}" alt="ctrabajador2">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="mctrabajador1">
+    <div id="ctrabajador1" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mctrabajador1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <button class="close" data-dismiss="modal"><img src="{{ url('img/close.png') }}" alt=" "></button>
+                <div class="modal-body">
+                    <div class="spimg">
+                        <img src="{{ url('img/ctrabajador1.png') }}" alt="ctrabajador1">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <div id="mcwalter">
     <div id="cwalter" class="lightbox modal fade" tabindex="-1" role="dialog" aria-labelledby="mcwalter" aria-hidden="true">
         <div class="modal-dialog">
